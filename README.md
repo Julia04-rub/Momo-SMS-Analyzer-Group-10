@@ -11,3 +11,9 @@ This project processes MoMo SMS data in XML format, cleans and categorizes the d
 -Carla Lisa Batoni
 
 -Julia Rubibi
+
+# Links
+
+Scrum board link:
+
+architecture diagram link:

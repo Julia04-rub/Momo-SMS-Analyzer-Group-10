@@ -1,0 +1,6 @@
+flask
+lxml
+python-dateutil
+sqlite3
+fastapi  # optional if you do API
+

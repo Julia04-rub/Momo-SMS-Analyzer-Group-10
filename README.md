@@ -16,4 +16,4 @@ This project processes MoMo SMS data in XML format, cleans and categorizes the d
 
 Scrum board link:
 
-architecture diagram link:
+architecture diagram link: https://drive.google.com/file/d/1lO-DnmZt-O2SLdT-un0lPG8p7l9vdKNP/view?usp=sharing

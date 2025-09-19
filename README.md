@@ -18,4 +18,4 @@ Scrum board link: https://github.com/users/Julia04-rub/projects/3/views/1
 
 architecture diagram link: https://drive.google.com/file/d/1lO-DnmZt-O2SLdT-un0lPG8p7l9vdKNP/view?usp=sharing
 
-GitHub repository link:https://github.com/Julia04-rub/Momo-SMS-Analyzer-Group-10
+GitHub repository link:https://github.com/Julia04-rub/Momo-SMS-Analyzer-Group-10                                                                                              

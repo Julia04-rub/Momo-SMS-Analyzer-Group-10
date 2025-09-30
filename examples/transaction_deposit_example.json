@@ -1,0 +1,28 @@
+{
+  "transaction_id": 113001,
+  "financial_transaction_id": "CASH001",
+  "sender": {
+    "user_id": 6,
+    "full_name": "Account Holder",
+    "phone_number": "250795963036"
+  },
+  "receiver": {
+    "user_id": 6,
+    "full_name": "Account Holder",
+    "phone_number": "250795963036"
+  },
+  "category": {
+    "category_id": 3,
+    "category_name": "Bank Deposit",
+    "category_code": "DEPOSIT"
+  },
+  "amount": 40000.00,
+  "currency": "RWF",
+  "fee": 0.00,
+  "new_balance": 40400.00,
+  "transaction_datetime": "2024-05-11T18:43:49Z",
+  "status": "completed",
+  "message_content": "*113*R*A bank deposit of 40000 RWF has been added to your mobile money account at 2024-05-11 18:43:49. Your NEW BALANCE :40400 RWF. Cash Deposit::CASH::::0::250795963036.Thank you for using MTN MobileMoney.*EN#",
+  "sender_message": null,
+  "created_at": "2024-05-11T18:44:00Z"
+}

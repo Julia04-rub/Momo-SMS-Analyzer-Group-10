@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "User Schema",
+  "type": "object",
+  "description": "JSON schema for mobile money user entity",
+  "properties": {
+    "user_id": {
+      "type": "integer",
+      "description": "Unique user identifier",
+      "minimum": 1
+    },
+    "full_name": {
+      "type": "string",
+      "description": "Customer full name",
+      "minLength": 2,
+      "maxLength": 100
+    },
+    "phone_number": {
+      "type": "string",
+      "description": "Mobile phone number (masked for privacy)",
+      "pattern": "^\\+?[1-9]\\d{1,14}$",
+      "maxLength": 15
+    },
+    "account_status": {
+      "type": "string",
+      "enum": ["active", "inactive", "suspended"],
+      "description": "Current account status"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Account creation timestamp"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Last update timestamp"
+    },
+    "transaction_summary": {
+      "type": "object",
+      "description": "User transaction summary (when included)",
+      "properties": {
+        "total_transactions": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total number of transactions"
+        },
+        "total_sent": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Total amount sent"
+        },
+        "total_received": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Total amount received"
+        },
+        "current_balance": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Current account balance"
+        }
+      }
+    }
+  },
+  "required": ["user_id", "full_name", "phone_number", "account_status"],
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+{
+  "transaction_id": 76662021700,
+  "financial_transaction_id": "76662021700",
+  "sender": {
+    "user_id": 1,
+    "full_name": "Jane Smith",
+    "phone_number": "250791666666"
+  },
+  "receiver": {
+    "user_id": 6,
+    "full_name": "Account Holder",
+    "phone_number": "250795963036"
+  },
+  "category": {
+    "category_id": 2,
+    "category_name": "Money Received",
+    "category_code": "RECEIVED"
+  },
+  "amount": 2000.00,
+  "currency": "RWF",
+  "fee": 0.00,
+  "new_balance": 2000.00,
+  "transaction_datetime": "2024-05-10T16:30:51Z",
+  "status": "completed",
+  "message_content": "You have received 2000 RWF from Jane Smith (*********013) on your mobile money account at 2024-05-10 16:30:51. Message from sender: . Your new balance:2000 RWF. Financial Transaction Id: 76662021700.",
+  "sender_message": "",
+  "created_at": "2024-05-10T16:31:00Z"
+}

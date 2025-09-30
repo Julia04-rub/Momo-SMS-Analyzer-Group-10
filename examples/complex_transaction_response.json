@@ -1,0 +1,86 @@
+{
+  "transaction": {
+    "transaction_id": 76662021700,
+    "financial_transaction_id": "76662021700",
+    "amount": 2000.00,
+    "currency": "RWF",
+    "fee": 0.00,
+    "new_balance": 2000.00,
+    "transaction_datetime": "2024-05-10T16:30:51Z",
+    "status": "completed",
+    "message_content": "You have received 2000 RWF from Jane Smith (*********013) on your mobile money account at 2024-05-10 16:30:51. Message from sender: . Your new balance:2000 RWF. Financial Transaction Id: 76662021700.",
+    "sender_message": "",
+    "created_at": "2024-05-10T16:31:00Z",
+    "sender": {
+      "user_id": 1,
+      "full_name": "Jane Smith",
+      "phone_number": "250791666666",
+      "account_status": "active",
+      "transaction_summary": {
+        "total_transactions": 8,
+        "total_sent": 15000.00,
+        "total_received": 3000.00,
+        "current_balance": 12000.00
+      }
+    },
+    "receiver": {
+      "user_id": 6,
+      "full_name": "Account Holder",
+      "phone_number": "250795963036",
+      "account_status": "active",
+      "transaction_summary": {
+        "total_transactions": 15,
+        "total_sent": 45000.00,
+        "total_received": 67000.00,
+        "current_balance": 22000.00
+      }
+    },
+    "category": {
+      "category_id": 2,
+      "category_name": "Money Received",
+      "category_code": "RECEIVED",
+      "description": "Money received from other users or external sources",
+      "is_active": true,
+      "transaction_count": 89,
+      "total_amount": 1250000.00
+    },
+    "system_logs": [
+      {
+        "log_id": 1001,
+        "operation_type": "insert",
+        "operation_status": "success",
+        "processed_by": "SMS_PROCESSOR_v1.0",
+        "processing_time": 0.125,
+        "created_at": "2024-05-10T16:31:01Z"
+      },
+      {
+        "log_id": 1002,
+        "operation_type": "update",
+        "operation_status": "success",
+        "processed_by": "BALANCE_UPDATER_v1.0",
+        "processing_time": 0.089,
+        "created_at": "2024-05-10T16:31:02Z"
+      }
+    ],
+    "relationships": {
+      "sender_receiver_relationship": {
+        "relationship_id": 101,
+        "relationship_type": "frequent_sender",
+        "transaction_count": 3,
+        "total_amount": 13900.00,
+        "last_transaction_date": "2024-05-12T13:26:13Z",
+        "created_at": "2024-05-10T16:31:00Z"
+      }
+    }
+  },
+  "metadata": {
+    "api_version": "1.0",
+    "response_time": "2024-09-18T10:30:00Z",
+    "total_records": 1,
+    "processing_info": {
+      "data_source": "momo_sms_db",
+      "query_execution_time": 0.045,
+      "cache_status": "miss"
+    }
+  }
+}

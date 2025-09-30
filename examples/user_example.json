@@ -1,0 +1,14 @@
+{
+  "user_id": 6,
+  "full_name": "Account Holder",
+  "phone_number": "250795963036",
+  "account_status": "active",
+  "created_at": "2024-05-01T10:00:00Z",
+  "updated_at": "2024-05-15T14:30:00Z",
+  "transaction_summary": {
+    "total_transactions": 15,
+    "total_sent": 45000.00,
+    "total_received": 67000.00,
+    "current_balance": 22000.00
+  }
+}

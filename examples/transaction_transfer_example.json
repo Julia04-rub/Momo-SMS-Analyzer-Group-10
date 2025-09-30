@@ -1,0 +1,28 @@
+{
+  "transaction_id": 165001,
+  "financial_transaction_id": "TRANSFER001",
+  "sender": {
+    "user_id": 6,
+    "full_name": "Account Holder",
+    "phone_number": "250795963036"
+  },
+  "receiver": {
+    "user_id": 2,
+    "full_name": "Samuel Carter",
+    "phone_number": "250790777777"
+  },
+  "category": {
+    "category_id": 1,
+    "category_name": "Money Transfer",
+    "category_code": "TRANSFER"
+  },
+  "amount": 10000.00,
+  "currency": "RWF",
+  "fee": 100.00,
+  "new_balance": 28300.00,
+  "transaction_datetime": "2024-05-11T20:34:47Z",
+  "status": "completed",
+  "message_content": "*165*S*10000 RWF transferred to Samuel Carter (250791666666) from 36521838 at 2024-05-11 20:34:47 . Fee was: 100 RWF. New balance: 28300 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#",
+  "sender_message": null,
+  "created_at": "2024-05-11T20:35:00Z"
+}

@@ -1,0 +1,11 @@
+{
+  "category_id": 1,
+  "category_name": "Money Transfer",
+  "category_code": "TRANSFER",
+  "description": "Direct money transfers between users (*165*S* pattern)",
+  "is_active": true,
+  "transaction_count": 156,
+  "total_amount": 2450000.00,
+  "created_at": "2024-05-01T10:00:00Z",
+  "updated_at": "2024-05-15T12:00:00Z"
+}

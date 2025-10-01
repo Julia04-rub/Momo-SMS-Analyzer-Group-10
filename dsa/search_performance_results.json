@@ -1,0 +1,28 @@
+{
+  "dataset_size": 100,
+  "num_searches": 50,
+  "linear_search": {
+    "total_time": 0.0001883000004454516,
+    "avg_time_per_search": 3.7660000089090316e-06,
+    "success_rate": 1.0,
+    "time_complexity": "O(n)"
+  },
+  "dictionary_lookup": {
+    "total_time": 1.449999945180025e-05,
+    "avg_time_per_search": 2.89999989036005e-07,
+    "success_rate": 1.0,
+    "time_complexity": "O(1) average case"
+  },
+  "binary_search": {
+    "total_time": 8.04999999672873e-05,
+    "avg_time_per_search": 1.6099999993457459e-06,
+    "success_rate": 1.0,
+    "time_complexity": "O(log n)"
+  },
+  "performance_comparison": {
+    "linear_vs_dict_speedup": 12.9862074182405,
+    "linear_vs_binary_speedup": 2.339130441266719,
+    "dict_vs_binary_speedup": 0.1801242168657466,
+    "fastest_algorithm": "dictionary_lookup"
+  }
+}

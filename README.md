@@ -1,14 +1,14 @@
 # Momo-SMS-Analyzer-Group-10
-# MoMo SMS Analyzer API 
+# REST API 
 
 ## Project Overview
 
 This project implements a REST API for MoMo SMS transactions with:
 
->Flask API for managing transactions
->XML Parser to process raw SMS data
->DSA Comparison between Linear Search and Dictionary Lookup
->Basic Authentication is the initial security mechanism
+- Flask API for managing transactions
+- XML Parser to process raw SMS data
+- DSA Comparison between Linear Search and Dictionary Lookup
+- Basic Authentication is the initial security mechanism
 
 # Members
 
@@ -19,6 +19,7 @@ This project implements a REST API for MoMo SMS transactions with:
 -Julia Rubibi
 
 # Repository Structure
+
 Momo-SMS-Analyzer-Group-10/
 │── api/               # Flask API (server.py)
 │── parser             # XML Parser (parse_xml.py)
@@ -30,23 +31,29 @@ Momo-SMS-Analyzer-Group-10/
 ## Setup Instructions
 
 1. Clone Repository
+
 git clone https://github.com/Julia04-rub/Momo-SMS-Analyzer-Group-10.git
 cd Momo-SMS-Analyzer-Group-10/momo-api-project
 
 2. Create Virtual Environment (recommended)
+
 python3 -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 
 3. Install Dependencies
+
 pip install -r requirements.txt
 
 4. Run API Server
+
 cd api
 python3 server.py
 
 
 API will run on: http://127.0.0.1:5000
+
+
 ## Authentication
 
 The API uses Basic Authentication:
@@ -60,12 +67,13 @@ Include credentials in request headers:
 Authorization: Basic <base64(username:password)>
 
 ## API Endpoints
-Method	Endpoint	Description
-GET	/transactions	Retrieve all transactions
-GET	/transactions/{id}	Retrieve transaction by ID
-POST	/transactions	Create a new transaction
-PUT	/transactions/{id}	Update transaction
-DELETE	/transactions/{id}	Delete transaction
+
+- Method	Endpoint	Description
+- GET	/transactions	Retrieve all transactions
+- GET	/transactions/{id}	Retrieve transaction by ID
+- POST	/transactions	Create a new transaction
+- PUT	/transactions/{id}	Update transaction
+- DELETE	/transactions/{id}	Delete transaction
 
 ## DSA Comparison
 
@@ -82,6 +90,7 @@ Linear Search → 0.000150s
 Dictionary Lookup → 0.000015s
 
  Dictionary Lookup is ~10x faster.
+ 
  ## Screenshots
 
 Screenshots of test cases are available in the /screenshots folder

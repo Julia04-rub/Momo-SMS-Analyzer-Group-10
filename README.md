@@ -21,11 +21,17 @@ This project implements a REST API for MoMo SMS transactions with:
 # Repository Structure
 
 Momo-SMS-Analyzer-Group-10/
+
 │── api/               # Flask API (server.py)
+
 │── parser             # XML Parser (parse_xml.py)
+
 │── dsa/               # DSA comparison (compare_search.py)
+
 │── docs/              # Documentation (api_docs.md)
+
 │── screenshots/       # Test case screenshots
+
 │── README.md          # Setup instructions 
 
 ## Setup Instructions
@@ -33,12 +39,15 @@ Momo-SMS-Analyzer-Group-10/
 1. Clone Repository
 
 git clone https://github.com/Julia04-rub/Momo-SMS-Analyzer-Group-10.git
+
 cd Momo-SMS-Analyzer-Group-10/momo-api-project
 
 2. Create Virtual Environment (recommended)
 
 python3 -m venv venv
+
 source venv/bin/activate   # Linux/Mac
+
 venv\Scripts\activate      # Windows
 
 3. Install Dependencies
@@ -48,6 +57,7 @@ pip install -r requirements.txt
 4. Run API Server
 
 cd api
+
 python3 server.py
 
 
@@ -119,7 +129,7 @@ Results of DSA Comparison
 
 Reflection on Basic Auth Limitations
 
-# Documentation link :
+ Documentation link :
 
 
 

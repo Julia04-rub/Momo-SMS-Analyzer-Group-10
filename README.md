@@ -139,4 +139,4 @@ architecture diagram link: https://drive.google.com/file/d/1lO-DnmZt-O2SLdT-un0l
 
 GitHub repository link:https://github.com/Julia04-rub/Momo-SMS-Analyzer-Group-10   
 
-report link :https://docs.google.com/document/d/1zJJDGAA4o7Imh8fq8NIUh2iDDwvymWG7rdIULI_VaLQ/edit?usp=sharing
+Documentation link :https://docs.google.com/document/d/1zJJDGAA4o7Imh8fq8NIUh2iDDwvymWG7rdIULI_VaLQ/edit?usp=sharing

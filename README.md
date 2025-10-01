@@ -10,7 +10,7 @@ This project implements a REST API for MoMo SMS transactions with:
 - DSA Comparison between Linear Search and Dictionary Lookup
 - Basic Authentication is the initial security mechanism
 
-# Members
+## Members
 
 -Angel Bwiza
 
@@ -18,7 +18,7 @@ This project implements a REST API for MoMo SMS transactions with:
 
 -Julia Rubibi
 
-# Repository Structure
+## Repository Structure
 
 Momo-SMS-Analyzer-Group-10/
 
@@ -89,15 +89,15 @@ Authorization: Basic <base64(username:password)>
 
 Two methods implemented to search transactions by ID:
 
-Linear Search → O(n)
+- Linear Search → O(n)
 
-Dictionary Lookup → O(1)
+- Dictionary Lookup → O(1)
 
 Benchmark (20 transactions, 100 searches):
 
-Linear Search → 0.000150s
+- Linear Search → 0.000150s
 
-Dictionary Lookup → 0.000015s
+- Dictionary Lookup → 0.000015s
 
  Dictionary Lookup is ~10x faster.
  
@@ -105,29 +105,29 @@ Dictionary Lookup → 0.000015s
 
 Screenshots of test cases are available in the /screenshots folder
 
-API running (server_running.png)
+- API running (server_running.png)
 
-Postman GET /transactions (get_transactions.png)
+- Postman GET /transactions (get_transactions.png)
 
-Postman POST /transactions (post_transaction.png)
+- Postman POST /transactions (post_transaction.png)
 
-DELETE /transactions/{id} (delete_transaction.png)
+- DELETE /transactions/{id} (delete_transaction.png)
 
-DSA results (dsa_results.png)
+- DSA results (dsa_results.png)
 
-XML parsing results (xml_parsing.png)
+- XML parsing results (xml_parsing.png)
 
 ## Report
 
 The detailed PDF report includes:
 
-Introduction to API Security
+- Introduction to API Security
 
-Documentation of Endpoints
+- Documentation of Endpoints
 
-Results of DSA Comparison
+- Results of DSA Comparison
 
-Reflection on Basic Auth Limitations
+- Reflection on Basic Auth Limitations
 
  Documentation link :
 

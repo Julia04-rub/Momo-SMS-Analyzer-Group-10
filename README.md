@@ -61,8 +61,6 @@ cd api
 python3 server.py
 
 
-API will run on: http://127.0.0.1:5000
-
 
 ## Authentication
 
@@ -129,7 +127,7 @@ The detailed PDF report includes:
 
 - Reflection on Basic Auth Limitations
 
- Documentation link :
+ See documentation: Documentation.pdf
 
 
 
